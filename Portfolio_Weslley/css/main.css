@@ -83,7 +83,7 @@
 {
   .font-color-sobre
    {
-    height: 900px;
+    height: 950px;
    }
 
 }
@@ -92,7 +92,7 @@
 {
   .font-color-sobre
    {
-    height: 1000px;
+    height: 1050px;
    }
 
 }
@@ -101,14 +101,14 @@
 {
   .font-color-sobre
    {
-    height: 1200px;
+    height: 1250px;
    }
 
    @media (max-width: 360px) 
 {
   .font-color-sobre
    {
-    height: 1400px;
+    height: 1450px;
    }
 
 }
