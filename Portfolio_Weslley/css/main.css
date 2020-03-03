@@ -1,0 +1,125 @@
+.nav-brand{
+        width: 120px;
+        margin-top: 2px;
+}
+
+.bg-color-home{
+    background-color: #1a1c1d;  
+}
+
+
+.nav-link-size{
+    font-size: 19px;    
+}
+
+.mp-auto-nav{
+    margin-top: 15px;
+}
+
+.font-color {
+    color: white;   
+    height: 600px;
+}
+
+.font-color h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.font-color h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.font-color p{
+    color: white;
+    font-size: 25px;
+    padding-top: 8px    ;
+}
+
+.mp-auto-section0  {
+    padding-top: 70px;
+}
+
+.centralizar-texto{
+    align-items: center;
+    text-align: center;
+}
+.mb-auto-section0{
+    height: 1000x;
+}
+
+
+.md-auto-section1  {
+    margin-top: 50px;
+}
+
+
+.font-color-sobre{
+    color: white;
+    height: 700px;
+
+}
+
+.font-color-sobre p{
+    font-size: 30px;
+    padding-top: 45px;
+}
+
+#resumo-size{
+    font-size: 25px;
+
+}
+
+.font-color-footer{
+    color: white;
+    font-size: 12px;
+    height: 35px;
+}
+
+
+
+
+@media (max-width: 770px) 
+{
+  .font-color-sobre
+   {
+    height: 900px;
+   }
+
+}
+
+@media (max-width: 510px) 
+{
+  .font-color-sobre
+   {
+    height: 1000px;
+   }
+
+}
+
+@media (max-width: 416px) 
+{
+  .font-color-sobre
+   {
+    height: 1200px;
+   }
+
+   @media (max-width: 360px) 
+{
+  .font-color-sobre
+   {
+    height: 1400px;
+   }
+
+}
+
+@media (max-width: 480px) 
+{
+  .font-color
+   {
+    height: 720px;
+   }
+   
+}
+
+}
