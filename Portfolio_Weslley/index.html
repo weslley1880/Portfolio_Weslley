@@ -131,18 +131,18 @@
         </div>
         <div class="col-md-4">
           <h3>Formulário de Contato</h3><br>
-          <form>
+          <form method="POST" action="processa.php">
             <div class="justify-content-center">
               <div class="form-group col-sm-12 col-md-12 col-lg-12">
-                <label for="inmputNome">Seu nome:</label>
-                <input type="text" class="form-control" name="name" id="inputNome" placeholder="Nome"></input>
+                <label for="inputNome">Seu nome:</label>
+                <input type="text" class="form-control" name="nome" id="inputNome" placeholder="Nome"></input>
               </div>
               <div class="form-group col-sm-12">
-                <label for="inmputNome">Seu email:</label>
+                <label for="inputEmail">Seu email:</label>
                 <input type="text" class="form-control" name="email" id="inputNome" placeholder="Email"></input>
               </div>
               <div class="form-group col-sm-12">
-                <label for="inmputNome">Seu comentário:</label>
+                <label for="imputComentario">Seu comentário:</label>
                 <input type="text" class="form-control" name="message" id="inputNome" placeholder="Comentário"></input><br>
                 <button type="submit" class=" btn btn-dark justify-content-center">Enviar</button>
               </div>
